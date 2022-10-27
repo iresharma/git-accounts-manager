@@ -4,7 +4,7 @@
   "description": "GitSwitch application build with Electron",
   "author": {
     "name": "iresharma",
-    "email": ""
+    "email": "iresh.sharma8@gmail.com"
   },
   "repository": {},
   "dependencies": {
@@ -25,7 +25,14 @@
     },
     "mac": {
       "publish": null,
-      "category": "your.app.category.type"
+      "category": "your.app.category.type",
+      "target": {
+        "target": "default",
+        "arch": [
+          "x64",
+          "arm64"
+        ]
+      }
     }
   }
 }
